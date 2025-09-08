@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Testes simples para o Gerador de Senhas Seguras.
-Não é nada muito formal, só para garantir que as funções básicas funcionem.
-"""
-
 import unittest
 from password_generator import (
     create_password_generator,
@@ -54,3 +49,4 @@ if __name__ == "__main__":
 
     print("Rodando testes")
     unittest.main(verbosity=2)
+
