@@ -109,6 +109,7 @@ testes para verificar o funcionamento:
 python test_password_generator.py
 ```
 
+```bash
 test_criptografia (__main__.TesteBasicoGerador.test_criptografia)
 Checa se a senha criptografada é diferente da original ... ok
 test_inverter (__main__.TesteBasicoGerador.test_inverter)
@@ -119,7 +120,7 @@ test_senha_com_numeros (__main__.TesteBasicoGerador.test_senha_com_numeros)
 Verifica se pelo menos tem um número na senha ... ok
 test_senha_tamanho (__main__.TesteBasicoGerador.test_senha_tamanho)
 Verifica se a senha gerada tem o tamanho pedido ... ok
-
+```
 
 ## Segurança
 
