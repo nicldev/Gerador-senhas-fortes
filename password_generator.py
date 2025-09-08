@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Gerador de Senhas Seguras
-Aplicação de conceitos de programação funcional em Python
-"""
 
 import random
 import string
@@ -259,3 +255,4 @@ if __name__ == "__main__":
     
     
     main()
+
