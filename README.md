@@ -51,7 +51,7 @@ upper_transformer = create_password_transformer(lambda x: x.upper())
 ```python
 def create_password_generator(default_length=12, include_symbols=True, ...):
     def generate_password(length=None):
-        # função interna que "lembra" das configurações
+        # função interna para as configurações
         actual_length = length or default_length
         # lógica de geração
     return generate_password
