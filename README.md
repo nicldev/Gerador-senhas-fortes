@@ -1,5 +1,5 @@
 # Gerador de Senhas Seguras
-Gerador de Senhas Seguras (PROJETO EM PYTHON)
+Gerador de Senhas Seguras;
 
 Requisitos funcionais: gerar senhas aleatórias com letras, números e símbolos; permitir escolher o tamanho.
 
