@@ -17,11 +17,11 @@ Implementado em: variáveis letters, digits, symbols dentro de generate_password
 
 ### Requisitos Não Funcionais
 
-RNF01: O código deve ser legível e bem estruturado.
+RNF1: O código deve ser legível e bem estruturado.
 
 Evidência: uso de funções curtas, nomes descritivos.
 
-RNF02: O código deve utilizar conceitos de programação funcional.
+RNF2: O código deve utilizar conceitos de programação funcional.
 
 Evidência: lambda, list comprehension, closure, função de alta ordem
 
