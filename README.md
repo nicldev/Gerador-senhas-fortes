@@ -1,7 +1,7 @@
 # Gerador de Senhas Seguras
 Gerador de Senhas Seguras;
 
-##Requisitos Funcionais
+### Requisitos Funcionais
 
 RF1: O sistema deve gerar senhas fortes de acordo com parâmetros do usuário.
 
@@ -15,7 +15,7 @@ RF3: O sistema deve incluir diferentes tipos de caracteres (maiúsculas, minúsc
 
 Implementado em: variáveis letters, digits, symbols dentro de generate_password().
 
-##Requisitos Não Funcionais
+### Requisitos Não Funcionais
 
 RNF01: O código deve ser legível e bem estruturado.
 
@@ -25,7 +25,7 @@ RNF02: O código deve utilizar conceitos de programação funcional.
 
 Evidência: lambda, list comprehension, closure, função de alta ordem
 
-##Aplicação da programação funcional:
+### Aplicação da programação funcional:
 
 Lambda: para filtrar caracteres especiais.
 
