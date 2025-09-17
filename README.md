@@ -171,7 +171,7 @@ Senha criptografada: a1b2c3d4e5f6...
 Senha com salt: 4f8a2b1c:K9#mP2@vL7$nQ4!
 Senha invertida: !Q4n$L7v@P2m#9K
 ```
-##Distribuição dos papéis da equipe
+### Distribuição dos papéis da equipe
 Mayara – Documentação dos requisitos e organização do relatório.
 
 Nicolas – Implementação principal do código em Python.
@@ -186,5 +186,5 @@ Flavio – Garantia de uso de programação funcional (lambda, closure, etc.) e 
 
 Um gerador de senhas seguras em python usando conceitos de programação funcional.
 
-##Uso de IA no projeto:
+### Uso de IA no projeto:
 Durante o desenvolvimento, a equipe utilizou inteligência artificial (ChatGPT) como apoio na organização dos requisitos e na revisão do código. A IA foi empregada para sugerir boas práticas, verificar a conformidade com os critérios da atividade e propor melhorias na documentação. Todas as decisões de implementação foram discutidas e ajustadas pelo grupo.
