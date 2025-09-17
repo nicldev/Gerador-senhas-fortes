@@ -1,11 +1,31 @@
 # Gerador de Senhas Seguras
 Gerador de Senhas Seguras;
 
-Requisitos funcionais: gerar senhas aleatórias com letras, números e símbolos; permitir escolher o tamanho.
+##Requisitos Funcionais
 
-Requisitos não funcionais: segurança, rapidez na geração.
+RF1: O sistema deve gerar senhas fortes de acordo com parâmetros do usuário.
 
-Aplicação da programação funcional:
+Implementado em: generate_password() (arquivo password_generator.py).
+
+RF2: O sistema deve permitir escolher o tamanho da senha.
+
+Implementado em: parâmetro length da função generate_password().
+
+RF3: O sistema deve incluir diferentes tipos de caracteres (maiúsculas, minúsculas, dígitos, símbolos).
+
+Implementado em: variáveis letters, digits, symbols dentro de generate_password().
+
+##Requisitos Não Funcionais
+
+RNF01: O código deve ser legível e bem estruturado.
+
+Evidência: uso de funções curtas, nomes descritivos.
+
+RNF02: O código deve utilizar conceitos de programação funcional.
+
+Evidência: lambda, list comprehension, closure, função de alta ordem
+
+##Aplicação da programação funcional:
 
 Lambda: para filtrar caracteres especiais.
 
@@ -15,8 +35,6 @@ Closure: criar uma função password_generator que guarda configurações padrã
 
 Função de alta ordem: função que recebe outra para transformar a senha (ex: criptografar).
 
-
-Um gerador de senhas seguras em python usando conceitos de programação funcional.
 
 Features
 
@@ -153,3 +171,20 @@ Senha criptografada: a1b2c3d4e5f6...
 Senha com salt: 4f8a2b1c:K9#mP2@vL7$nQ4!
 Senha invertida: !Q4n$L7v@P2m#9K
 ```
+##Distribuição dos papéis da equipe
+Mayara – Documentação dos requisitos e organização do relatório.
+
+Nicolas – Implementação principal do código em Python.
+
+Thiago – Testes e validação do funcionamento do sistema.
+
+Cleberson – Apoio na implementação do código.
+
+Rodrigo – Revisão de código e controle de versionamento (GitHub).
+
+Flavio – Garantia de uso de programação funcional (lambda, closure, etc.) e integração final.
+
+Um gerador de senhas seguras em python usando conceitos de programação funcional.
+
+##Uso de IA no projeto:
+Durante o desenvolvimento, a equipe utilizou inteligência artificial (ChatGPT) como apoio na organização dos requisitos e na revisão do código. A IA foi empregada para sugerir boas práticas, verificar a conformidade com os critérios da atividade e propor melhorias na documentação. Todas as decisões de implementação foram discutidas e ajustadas pelo grupo.
