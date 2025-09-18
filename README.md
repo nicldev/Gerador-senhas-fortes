@@ -237,9 +237,9 @@ faça uma analise desse arquivo leia todo o codigo dele e baseado no texto que j
 Li todo a o arquivo password_generator.py que você enviou e cruzei com os requisitos funcionais e não funcionais que você já tinha listado
 Conclusão da Análise
 
-Todos os requisitos funcionais e não funcionais listados estão plenamente atendidos e possuem evidências no código.
-Há até requisitos adicionais implementados que não estavam na sua lista inicial (como RF4: transformações de senha e criptografia).
+👉 Todos os requisitos funcionais e não funcionais listados estão plenamente atendidos e possuem evidências no código.(como RF4: transformações de senha e criptografia).
 Quer que eu já te entregue isso em formato README.md (documentação formal pronta para GitHub) ou em formato relatório técnico (docx/pdf)?
+
 -----
 -----
 **pergunta:**
