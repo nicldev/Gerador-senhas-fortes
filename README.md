@@ -1,25 +1,82 @@
 # Gerador de Senhas Seguras
 Gerador de Senhas Seguras;
 
-### Requisitos Funcionais
+# Gerador de Senhas Seguras
 
-- **RF1**: O sistema deve gerar senhas fortes de acordo com parâmetros do usuário.  
-  - **Implementado em**: `generate_password()` (arquivo `password_generator.py`).  
+Este projeto implementa um sistema de geração e transformação de senhas com foco em segurança e boas práticas de programação funcional.
 
-- **RF2**: O sistema deve permitir escolher o tamanho da senha.  
-  - **Implementado em**: parâmetro `length` da função `generate_password()`.  
+---
 
-- **RF3**: O sistema deve incluir diferentes tipos de caracteres (maiúsculas, minúsculas, dígitos, símbolos).  
-  - **Implementado em**: variáveis `letters`, `digits`, `symbols` dentro de `generate_password()`.  
+## Requisitos Funcionais (RF)
 
-### Requisitos Não Funcionais
+### RF1 – O sistema deve gerar senhas fortes de acordo com parâmetros do usuário.
 
-- **RNF1**: O código deve ser legível e bem estruturado.  
-  - **Evidência**: uso de funções curtas, nomes descritivos.  
+* **Implementação:**
 
-- **RNF2**: O código deve utilizar conceitos de programação funcional.  
-  - **Evidência**: uso de `lambda`, `list comprehension`, `closure` e **função de alta ordem** no código.  
+  * Função `create_password_generator()` → gera senhas parametrizadas.
+  * Usado em `create_secure_password_generator()`, `create_simple_password_generator()` e também no menu da `main()`.
+  * Uso do módulo `secrets` para aleatoriedade criptográfica e inclusão obrigatória de pelo menos um caractere de cada tipo.
 
+---
+
+### RF2 – O sistema deve permitir escolher o tamanho da senha.
+
+* **Implementação:**
+
+  * Parâmetro `default_length` em `create_password_generator()`.
+  * Entrada do usuário na opção 3 do `main()` (`length = int(input(...))`).
+  * Parâmetro `length` aceito dentro de `generate_password()` (closure interna).
+
+---
+
+### RF3 – O sistema deve incluir diferentes tipos de caracteres (maiúsculas, minúsculas, dígitos, símbolos).
+
+* **Implementação:**
+
+  * Constantes `LETTERS_LOWER`, `LETTERS_UPPER`, `NUMBERS`, `SYMBOLS`.
+  * Inclusão controlada pelos parâmetros `include_lowercase`, `include_uppercase`, `include_numbers`, `include_symbols` em `create_password_generator()`.
+  * Evidência: blocos que adicionam cada conjunto ao `char_pools`.
+
+---
+
+### RF4 – O sistema deve permitir aplicar transformações sobre senhas.
+
+* **Implementação:**
+
+  * Função de alta ordem `create_password_transformer()`.
+  * Exemplos:
+
+    * `encrypt_password()` (hash SHA-256).
+    * `add_salt()` (concatenação de salt aleatório).
+    * `reverse_password()` (inversão da string).
+  * Chamados na `main()` opção 4.
+
+---
+
+## Requisitos Não Funcionais (RNF)
+
+### RNF1 – O código deve ser legível e bem estruturado.
+
+* **Evidência:**
+
+  * Funções curtas e coesas (`generate_character_sets`, `encrypt_password`, `add_salt`, etc.).
+  * Nomes descritivos (`create_secure_password_generator`, `filter_special_characters`).
+  * Docstrings explicando cada função.
+  * Separação clara de responsabilidades (geração, transformação, interface).
+
+---
+
+### RNF2 – O código deve utilizar conceitos de programação funcional.
+
+* **Evidência:**
+
+  * **List comprehension:** usado em `generate_character_sets()` e na construção de `char_pools`.
+  * **Lambda:** em `filter_special_characters` (retorno usado em compreensões de lista).
+  * **Closure:** `create_password_generator()` retorna `generate_password()`.
+  * **Função de alta ordem:** `create_password_transformer()` recebe outra função como argumento e retorna nova função.
+  * **Demonstração explícita:** função `demonstrate_functional_concepts()` imprime exemplos desses conceitos.
+
+---
 ### Aplicação da programação funcional:
 
 Lambda: para filtrar caracteres especiais.
