@@ -85,7 +85,7 @@ def create_password_generator(
         while len(password) < actual_length:
             password.append(secrets.choice(char_pools))
         
-        # embaralhar a senha para evitar padrões
+        # embaralhar a senha
         random.shuffle(password)
         return ''.join(password)
     
@@ -255,4 +255,5 @@ if __name__ == "__main__":
     
     
     main()
+
 
