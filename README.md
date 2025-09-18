@@ -1,10 +1,5 @@
 # Gerador de Senhas Seguras
-Gerador de Senhas Seguras;
-
-# Gerador de Senhas Seguras
-
 Este projeto implementa um sistema de geração e transformação de senhas com foco em segurança e boas práticas de programação funcional.
-
 ---
 
 ## Requisitos Funcionais (RF)
