@@ -234,11 +234,11 @@ Durante o desenvolvimento, a equipe utilizou inteligência artificial (ChatGPT) 
 faça uma analise desse arquivo leia todo o codigo dele e baseado no texto que ja tenho de requisitos funcionais e nao funcionais , verifique te atendo totalmente esse criterio: Criar documento com os requisitos (diferenciando os requisitos funcionais e não funcionais) e realizar a identificação de como os requisitos estão codificados. o Exemplo, o requisito “o sistema deverá garantir segurança para as credenciais” está na função encrypt_password e store_password.
 
 **resposta:**
-Li todo o arquivo password_generator.py que você enviou e cruzei com os requisitos funcionais e não funcionais que você já tinha listado
+Li todo a o arquivo password_generator.py que você enviou e cruzei com os requisitos funcionais e não funcionais que você já tinha listado
 Conclusão da Análise
 
-✅ Todos os requisitos funcionais e não funcionais listados estão plenamente atendidos e possuem evidências no código.
-✅ Há até requisitos adicionais implementados que não estavam na sua lista inicial (como RF4: transformações de senha e criptografia).
+Todos os requisitos funcionais e não funcionais listados estão plenamente atendidos e possuem evidências no código.
+Há até requisitos adicionais implementados que não estavam na sua lista inicial (como RF4: transformações de senha e criptografia).
 Quer que eu já te entregue isso em formato README.md (documentação formal pronta para GitHub) ou em formato relatório técnico (docx/pdf)?
 -----
 -----
