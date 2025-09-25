@@ -253,6 +253,7 @@ Uso programático" significa: usar algo por meio de código, dentro de um progra
 Uso normal → quando você usa uma ferramenta “na mão”, por exemplo abrir um aplicativo e clicar em botões para gerar a senha.
 
 Uso programático → quando você chama funções dessa ferramenta dentro do seu próprio código, automatizando o processo.
+
 -----
 -----
 **pergunta:**
